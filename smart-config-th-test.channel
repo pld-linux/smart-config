@@ -1,0 +1,10 @@
+[th-test-arch]
+name=PLD Th (testing) - @ARCH@
+baseurl=ftp://ftp.th.pld-linux.org/dists/th/test/@ARCH@/RPMS/
+type=rpm-md
+disabled=yes
+[th-test-noarch]
+name=PLD Th (testing) - all architectures
+baseurl=ftp://ftp.th.pld-linux.org/dists/th/test/noarch/RPMS/
+type=rpm-md
+disabled=yes

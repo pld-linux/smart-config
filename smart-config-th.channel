@@ -1,0 +1,8 @@
+[th-arch]
+name=PLD Th - @ARCH@
+baseurl=ftp://ftp.th.pld-linux.org/dists/th/PLD/@ARCH@/RPMS/
+type=rpm-md
+[th-noarch]
+name=PLD Th - all architectures
+baseurl=ftp://ftp.th.pld-linux.org/dists/th/PLD/noarch/RPMS/
+type=rpm-md
