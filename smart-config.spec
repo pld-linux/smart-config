@@ -1,4 +1,5 @@
 Summary:	Configuration files for smart
+Summary(pl.UTF-8):	Pliki konfiguracyjne dla smarta
 Name:		smart-config
 Version:	2.99
 Release:	1
@@ -7,11 +8,13 @@ Group:		Base
 Source0:	%{name}-th.channel
 Source1:	%{name}-th-test.channel
 Requires:	smart
-Provides:	smart-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains smart configuration files for PLD.
+
+%description -l pl.UTF-8
+Ten pakiet zawiera pliki konfiguracyjne smarta dla PLD.
 
 %prep
 %setup -q -c
