@@ -11,10 +11,10 @@ Requires:	smart
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package contains smart configuration files for PLD.
+This package contains smart configuration files for PLD Linux.
 
 %description -l pl.UTF-8
-Ten pakiet zawiera pliki konfiguracyjne smarta dla PLD.
+Ten pakiet zawiera pliki konfiguracyjne smarta dla PLD Linuksa.
 
 %prep
 %setup -q -c
